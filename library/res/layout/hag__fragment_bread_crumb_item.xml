@@ -37,5 +37,6 @@
             android:gravity="center_vertical"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:background="?attr/hagSelectableItemBackground"
+            android:textColor="?attr/hagSelectableTextColor"
             />
 </LinearLayout>

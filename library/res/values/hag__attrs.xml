@@ -4,5 +4,6 @@
 	<declare-styleable name="FragmentBreadCrumb">
 		<attr name="hagDividerVertical" format="reference" />
 		<attr name="hagSelectableItemBackground" format="reference" />
-	</declare-styleable>
+        <attr name="hagSelectableTextColor" format="reference" />
+    </declare-styleable>
 </resources>
