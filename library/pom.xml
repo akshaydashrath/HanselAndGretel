@@ -20,11 +20,13 @@
 			<groupId>android</groupId>
 			<artifactId>android</artifactId>
 			<scope>provided</scope>
+			<version>4.2_r1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.google.android</groupId>
 			<artifactId>support-v4</artifactId>
+			<version>r13</version>
 		</dependency>
 	</dependencies>
 
@@ -36,6 +38,12 @@
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 				<artifactId>android-maven-plugin</artifactId>
 				<extensions>true</extensions>
+<configuration>
+                                                <sdk>
+                                                        <platform>17</platform>
+                                                </sdk>
+                                                <undeployBeforeDeploy>true</undeployBeforeDeploy>
+                                        </configuration>
 			</plugin>
 
 			<plugin>
