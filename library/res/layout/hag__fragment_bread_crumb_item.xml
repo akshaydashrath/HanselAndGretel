@@ -35,8 +35,7 @@
             android:paddingLeft="8dip"
             android:paddingRight="8dip"
             android:gravity="center_vertical"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAppearance="?attr/hagSelectableTextStyle"
             android:background="?attr/hagSelectableItemBackground"
-            android:textColor="?attr/hagSelectableTextColor"
             />
 </LinearLayout>
