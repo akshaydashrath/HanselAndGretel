@@ -27,11 +27,7 @@ Usage
     
         <item name="hagDividerVertical">@drawable/hag__divider_dark</item>
         <item name="hagSelectableItemBackground">@drawable/hag__background_dark</item>
-    
-    or
-    
-        <item name="hagDividerVertical">@drawable/hag__divider_dark</item>
-        <item name="hagSelectableItemBackground">@drawable/hag__background_dark</item>
+        <item name="hagSelectableTextStyle">?android:attr/textAppearanceMedium</item>
     
     or specify your own drawables for the divider and background.
     
