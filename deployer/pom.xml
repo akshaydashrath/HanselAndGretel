@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.jakewharton</groupId>
         <artifactId>hanselandgretel-parent</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
     <artifactId>hansel-gretel-library-deployer</artifactId>
     <name>Hansel And Gretel Library Deployer</name>
     <packaging>pom</packaging>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <build>
         <plugins>
@@ -34,7 +34,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>android-support-v4-r13</id>
+                        <id>android-support-v4-r13=8</id>
                         <phase>install</phase>
                         <goals>
                             <goal>install-file</goal>
@@ -43,8 +43,8 @@
                             <groupId>com.google.android</groupId>
                             <artifactId>support-v4</artifactId>
                             <packaging>jar</packaging>
-                            <version>r13</version>
-                            <file>android-support-v4-r13.jar</file>
+                            <version>r18</version>
+                            <file>android-support-v4-r18.jar</file>
                         </configuration>
                     </execution>
                 </executions>
