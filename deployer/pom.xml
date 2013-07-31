@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.jakewharton</groupId>
         <artifactId>hanselandgretel-parent</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </parent>
     <artifactId>hansel-gretel-library-deployer</artifactId>
     <name>Hansel And Gretel Library Deployer</name>
     <packaging>pom</packaging>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <build>
         <plugins>
