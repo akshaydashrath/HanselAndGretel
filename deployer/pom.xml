@@ -34,7 +34,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>android-support-v4-r13=8</id>
+                        <id>android-support-v4-r18</id>
                         <phase>install</phase>
                         <goals>
                             <goal>install-file</goal>
